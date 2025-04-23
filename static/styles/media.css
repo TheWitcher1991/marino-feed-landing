@@ -1,0 +1,296 @@
+@media all and (max-width: 1700px) {
+
+    :root {
+        --font-size-about-card-div: 30px;
+        --font-size-about-card-p: 20px;
+        --font-size-fire-card-div: 30px;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+    .fire-card p {
+        font-weight: 600;
+        z-index: 10;
+    }
+
+    .slide-image img {
+        width: 540px;
+    }
+
+}
+
+@media all and (max-width: 1250px) {
+
+    :root {
+        --font-size-section-title-h2: 30px;
+        --font-size-section-title-span: 40px;
+        --font-size-section-title-div: 18px;
+        --font-size-banner-h2: 40px;
+    }
+
+    .header-card {
+        border-radius: 20px;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #footer {
+        padding: 0;
+    }
+
+    .section {
+        padding: 30px 0;
+        margin: 0 10px;
+    }
+
+    .banner {
+        border-radius: 20px;
+        margin: 0 10px 30px 10px;
+        height: fit-content;
+        padding: 30px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .section-blacked {
+        border-radius: 20px;
+        padding: 30px;
+    }
+
+    .footer-fasie {
+        max-width: 100%;
+        padding: 30px 20px;
+        border-radius: 30px 30px 0 0;
+    }
+
+    .section-title {
+        padding: 0 20px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .fire-card {
+        padding: 30px 20px;
+        border-radius: 20px;
+    }
+
+    .footer-contact {
+        padding: 30px 20px;
+    }
+
+    .footer-contact > p {
+        margin: 30px 0 0 0;
+    }
+
+    .fire-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .fire-card div {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .fire-card-right {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fire-card-right article, .fire-card article {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fire-card-right p, .fire-card p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-card {
+        padding: 30px 20px;
+        border-radius: 20px;
+    }
+
+    .about-card div {
+        text-align: center;
+    }
+
+    .about-card p {
+        text-align: center;
+        text-wrap: balance;
+    }
+
+    .about-card > .flex-between {
+        margin: 20px 0 0 0;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .mobile-section {
+        display: block;
+    }
+
+    .header-article {
+        margin-top: 60px;
+    }
+
+    .section-header {
+        padding: 30px 10px;
+    }
+
+    .slide {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .slide-image img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 100%;
+    }
+
+    #header {
+        height: fit-content;
+    }
+
+    .header-cards {
+        margin: 30px 0 0 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header-card {
+        width: 48%;
+        position: relative;
+        bottom: 0;
+        top: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    :root {
+        --font-size-action-button: 17px;
+        --font-size-menu: 22px;
+        --font-size-header-h1: 22px;
+        --font-size-header-p: 18px;
+        --font-size-card-text-span: 30px;
+        --font-size-card-text-p: 18px;
+        --font-size-section-title-h2: 30px;
+        --font-size-section-title-span: 60px;
+        --font-size-section-title-div: 20px;
+        --font-size-about-card-div: 30px;
+        --font-size-about-card-p: 20px;
+        --font-size-fire-card-p: 18px;
+        --font-size-fire-card-div: 28px;
+        --font-size-footer-fasie-p: 18px;
+        --font-size-footer-contact-list: 16px;
+        --font-size-footer-contact-list-icon: 18px;
+        --font-size-slide-text-div: 25px;
+        --font-size-slide-text-p: 18px;
+        --font-size-banner-h2: 30px;
+    }
+
+    .modal {
+        z-index: 10000000000000;
+    }
+
+    .modal-container {
+        padding: 0;
+    }
+
+    .modal-content {
+        bottom: 0;
+        position: absolute;
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+        padding: 20px 16px;
+    }
+
+    .input {
+        min-height: 40px;
+        height: 38px;
+    }
+
+    .modal-buttons button {
+        height: 38px;
+    }
+
+    .owl-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .owl-nav button {
+        width: 100%;
+    }
+
+    .owl-action {
+        width: 100%;
+    }
+
+    .section-title {
+        flex-direction: column;
+        gap: 0
+    }
+
+    .section-title span {
+        display: none;
+    }
+
+    .about-card .flex-between {
+        flex-direction: column;
+    }
+
+    .section-title div {
+        text-align: center;
+    }
+
+    .header-cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-card {
+        width: 100%;
+        height: fit-content;
+        gap: 20px;
+    }
+
+    .header-card-2, .header-card-4 {
+        display: none;
+    }
+
+}

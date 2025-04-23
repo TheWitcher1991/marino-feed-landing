@@ -1,0 +1,6 @@
+@media (hover: hover) {
+    .action-button:hover {
+        color: var(--color-text);
+        background: var(--color-white);
+    }
+}

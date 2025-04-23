@@ -1,0 +1,71 @@
+:root {
+    --font-family: "Inter", sans-serif;
+    --font: normal 16px "Inter", sans-serif;
+}
+
+:root {
+    --transition-linear: all 0.2s linear;
+}
+
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-blacked: #0D1615;
+    --color-text: #2E4A3E;
+    --color-section: #F5F1E6;
+    --color-accent: #2E4A3E;
+    --color-gray: #667085;
+    --color-tiny: #9B9B9C;
+
+    --color-section-hover: #e7e1d1;
+    --color-accent-hover: #295743;
+
+    --color-white-200: rgba(255, 255, 255, 0.2);
+    --color-white-400: rgba(255, 255, 255, 0.4);
+    --color-white-600: rgba(255, 255, 255, 0.6);
+    --color-white-800: rgba(255, 255, 255, 0.8);
+}
+
+:root {
+    --border-white: 1px solid var(--color-white);
+}
+
+
+:root {
+    --border-radius-s: 12px;
+    --border-radius-m: 16px;
+    --border-radius-l: 18px;
+}
+
+
+:root {
+    --width-container: 1230px;
+}
+
+:root {
+    --font-size-nav-menu: 18px;
+    --font-size-nav-action: 16px;
+    --font-size-header-title: 88px;
+    --font-size-header-caption: 25px;
+    --font-size-header-href: 20px;
+    --font-size-header-tag: 18px;
+
+    --font-section-title: 24px;
+    --font-section-big-title: 52px;
+    --font-section-caption: 20px;
+
+    --font-size-card-text: 24px;
+    --font-size-card-caption: 24px;
+
+    --font-size-product-title: 40px;
+    --font-size-product-subtitle: 24px;
+    --font-size-product-caption: 24px;
+
+    --font-size-banner-title: 90px;
+    --font-size-banner-caption: 24px;
+
+    --font-size-footer-caption: 16px;
+    --font-size-footer-copy: 20px;
+    --font-size-footer-list-title: 18px;
+    --font-size-footer-list-href: 14px;
+}
