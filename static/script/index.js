@@ -1,5 +1,18 @@
 $(document).ready(function () {
 
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+
+    if (ScrollTrigger.isTouch !== 1) {
+
+        ScrollSmoother.create({
+            wrapper: '.wrapper',
+            content: '.content',
+            smooth: 1.5,
+            effects: true
+        })
+
+    }
+
     $('.accordion-header').on("click", function() {
         $('.accordion-item').not($(this).parent()).removeClass('active');
         $('.accordion-item').not($(this).parent()).find('.accordion-content').css('max-height', '0');

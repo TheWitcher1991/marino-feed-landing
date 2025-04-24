@@ -4,7 +4,7 @@
 }
 
 :root {
-    --transition-linear: all 0.2s linear;
+    --transition-linear: all 0.2s ease;
 }
 
 :root {
@@ -39,7 +39,7 @@
 
 
 :root {
-    --width-container: 1230px;
+    --width-container: 1200px;
 }
 
 :root {
@@ -55,7 +55,7 @@
     --font-section-caption: 20px;
 
     --font-size-card-text: 24px;
-    --font-size-card-caption: 24px;
+    --font-size-card-caption: 20px;
 
     --font-size-product-title: 40px;
     --font-size-product-subtitle: 24px;

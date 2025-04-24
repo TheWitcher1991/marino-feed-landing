@@ -2,5 +2,5 @@ User-Agent: *
 Allow: /
 Allow: /*
 
-Host: https://zamorozkino.ru
-Sitemap: https://zamorozkino.ru/sitemap.xml
+Host: https://
+Sitemap: https://sitemap.xml

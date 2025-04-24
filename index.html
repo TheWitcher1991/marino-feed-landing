@@ -78,7 +78,7 @@
             "logo": "/public/logo.png",
             "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "",
+                "telephone": "+7 (952) 821-60-05",
                 "contactType": "customer service",
                 "areaServed": "RU"
             }
@@ -103,6 +103,7 @@
     <link rel="stylesheet" href="./static/styles/normalize.css"/>
     <link rel="stylesheet" href="./static/styles/wrapper.css"/>
     <link rel="stylesheet" href="./static/styles/hover.css"/>
+    <link rel="stylesheet" href="./static/styles/media.css"/>
 </head>
 
 <body>
@@ -110,344 +111,387 @@
 <!-- CONTENT -->
 <main class="wrapper">
 
-    <!-- HEADER -->
-    <header id="header">
-        <section class="container">
-            <nav class="nav" itemscope itemtype='http://schema.org/SiteNavigationElement'>
-                <div class="flex-between container">
-                    <img src="./public/logo.png" alt="Логотип" width="80" height="80" class="wow fadeIn"/>
-                    <menu class="menu wow fadeIn" itemscope itemtype='http://schema.org/ItemList'>
-                        <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
-                            <a itemprop='url' href="#mission">О нас</a>
-                            <meta itemprop='name' content='О нас'/>
-                        </li>
-                        <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
-                            <a itemprop='url' href="#favorite">Преимущества</a>
-                            <meta itemprop='name' content='Преимущества'/>
-                        </li>
-                        <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
-                            <a itemprop='url' href="#product">Продукция</a>
-                            <meta itemprop='name' content='Продукция'/>
-                        </li>
-                        <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
-                            <a itemprop='url' href="#footer">Контакты</a>
-                            <meta itemprop='name' content='Контакты'/>
-                        </li>
-                    </menu>
-                    <a href="mailto:zamorozkino.stv@gmail.com" class="action-button wow fadeIn">
-                        Связаться <i class="mdi mdi-arrow-right"></i>
-                    </a>
-                </div>
-            </nav>
-
-            <article class="header-hero">
-                <h1>Марьинские корма – надёжный выбор для вашего двора</h1>
-                <p>Лучшие комбикорма от кубанских производителей с альтернативным белковым комплексом</p>
-            </article>
-
-            <a class="header-link">Подробнее <span><i class="mdi mdi-arrow-right"></i></span></a>
-
-            <div class="header-tags">
-                <div class="tag">Прозрачность производства</div>
-                <article>
-                    <div class="tag">Природный состав</div>
-                    <div class="tag">Чистота и качество</div>
-                </article>
-                <article>
-                    <div class="tag">Натуральные корма</div>
-                    <div class="tag">Здоровье животных</div>
-                </article>
+    <section class="mobile-section">
+        <nav class="flex-between mobile-nav">
+            <div class="mobile-logo">
+                <img src="./public/logo.png" alt="Логотип" width="40" height="40"/>
+                Марьинские корма
             </div>
-        </section>
-    </header>
+            <div class="mobile-button">
+                <i class="mdi mobile-action mdi-menu"></i>
+            </div>
+        </nav>
+        <menu class="mobile-menu" itemscope itemtype='http://schema.org/ItemList'>
+            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                <a itemprop='url' href="#mission">О нас</a>
+                <meta itemprop='name' content='О нас'/>
+            </li>
+            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                <a itemprop='url' href="#favorite">Преимущества</a>
+                <meta itemprop='name' content='Преимущества'/>
+            </li>
+            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                <a itemprop='url' href="#product">Продукция</a>
+                <meta itemprop='name' content='Продукция'/>
+            </li>
+            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                <a itemprop='url' href="#footer">Контакты</a>
+                <meta itemprop='name' content='Контакты'/>
+            </li>
+        </menu>
+    </section>
 
-    <!-- SECTIONS -->
-    <div id="content">
-        <section class="section">
-            <article id="mission" class="container">
-                <div class="section-header">
-                    <div class="section-header-title">
-                        Наша миссия и ценности
+    <div class="content">
+        <!-- HEADER -->
+        <header id="header">
+            <section class="container header-container">
+                <nav class="nav wow fadeIn" itemscope itemtype='http://schema.org/SiteNavigationElement'>
+                    <div class="flex-between container">
+                        <img src="./public/logo.png" alt="Логотип" width="80" height="80"/>
+                        <menu class="menu" itemscope itemtype='http://schema.org/ItemList'>
+                            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                                <a itemprop='url' href="#mission">О нас</a>
+                                <meta itemprop='name' content='О нас'/>
+                            </li>
+                            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                                <a itemprop='url' href="#favorite">Преимущества</a>
+                                <meta itemprop='name' content='Преимущества'/>
+                            </li>
+                            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                                <a itemprop='url' href="#product">Продукция</a>
+                                <meta itemprop='name' content='Продукция'/>
+                            </li>
+                            <li itemprop='itemListElement' itemscope='' itemtype='http://schema.org/ItemList'>
+                                <a itemprop='url' href="#footer">Контакты</a>
+                                <meta itemprop='name' content='Контакты'/>
+                            </li>
+                        </menu>
+                        <a href="mailto:zamorozkino.stv@gmail.com" class="action-button">
+                            Связаться <i class="mdi mdi-arrow-right"></i>
+                        </a>
                     </div>
-                    <div class="section-header-inner">
-                        <h3 class="section-header-big-title">Корма производятся исключительно из сырья кубанских
-                            производителей</h3>
-                        <p class="section-header-caption">Уникальность наших комбинированных кормов заключается в
-                            применении в производстве комбикормов с повышенным содержанием кератина, получаемого при
-                            переработке перопуховых отходов птицеперерабатывающей промышленности. Наши корма прошли все
-                            стадии лабораторных испытаний и выступают полноценным аналогом традиционным системам
-                            кормления.</p>
-                    </div>
-                </div>
-                <div class="about-images">
-                    <img class="about-image-1" src="./public/hand-product.png" alt=""/>
-                    <img class="about-image-2" src="./public/rabbits-product.png" alt=""/>
-                </div>
-            </article>
-        </section>
+                </nav>
 
-        <section class="section section-accent">
-            <article id="favorite" class="container">
-                <div class="section-header">
-                    <div class="section-header-title">
-                        Преимущества
-                    </div>
-                    <div class="section-header-inner">
-                        <h3 class="section-header-big-title">Доступные и качественные гранулированные корма для вашего
-                            двора</h3>
-                        <p class="section-header-caption">Мы гордимся тем, что создаём корма, которые заботятся о
-                            здоровье ваших животных каждый день. Наша продукция сочетает в себе передовые технологии и
-                            натуральность, обеспечивая идеальный баланс между качеством и доступностью.</p>
-                    </div>
-                </div>
-                <div class="cards">
-                    <div class="card card-1">
-                        <p>Корма производятся из продуктов птицеперерабатывающей промышленности, но, ни в чем не
-                            уступают комбикормам с традиционной системой кормления</p>
-                        <span>1</span>
-                    </div>
-                    <div class="card card-2"></div>
-                    <div class="card card-3 card-white">
-                        <p>Предлагаем доступные и стабильные цены</p>
-                        <span>2</span>
-                    </div>
-                    <div class="card card-4 card-white"><p>Используется исключительно сырье кубанских производителей</p>
-                        <span>3</span>
-                    </div>
-                    <div class="card card-5"></div>
-                    <div class="card card-6"><p>Наше белковое сырье из гидролизата пера и пуха птицы является
-                        универсальным и подходит для всех видов животных</p>  <span>4</span></div>
-                </div>
-            </article>
-        </section>
+                <article class="header-hero">
+                    <h1 class="wow fadeIn" data-wow-delay="100ms">Марьинские корма – надёжный выбор для вашего двора</h1>
+                    <p class="wow fadeIn" data-wow-delay="200ms">Лучшие комбикорма от кубанских производителей с
+                        альтернативным белковым комплексом</p>
+                </article>
 
-        <section class="section">
-            <article id="product" class="container">
-                <div class="section-header">
-                    <div class="section-header-title">
-                        Наша продукция
-                    </div>
-                    <div class="section-header-inner">
-                        <h3 class="section-header-big-title">Создаём корма, которым доверяют фермеры</h3>
-                        <p class="section-header-caption">Корма разработаны с учётом потребностей животных и требований
-                            фермеров. Мы используем только проверенное сырьё, современные технологии производства и
-                            инновационные добавки, которые повышают питательную ценность.</p>
-                    </div>
+                <a href="mailto:zamorozkino.stv@gmail.com" class="header-link wow fadeIn" data-wow-delay="300ms">Подробнее <span><i class="mdi mdi-arrow-right"></i></span></a>
+
+                <div class="header-tags">
+                    <div class="tag wow fadeIn" data-wow-delay="400ms">Прозрачность производства</div>
+                    <article>
+                        <div class="tag wow fadeIn" data-wow-delay="500ms">Природный состав</div>
+                        <div class="tag wow fadeIn" data-wow-delay="600ms">Чистота и качество</div>
+                    </article>
+                    <article>
+                        <div class="tag wow fadeIn" data-wow-delay="700ms">Натуральные корма</div>
+                        <div class="tag wow fadeIn" data-wow-delay="800ms">Здоровье животных</div>
+                    </article>
                 </div>
-                <div class="accordion">
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <div><span>1</span> Куры несушки</div>
-                            <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+            </section>
+        </header>
+
+        <!-- SECTIONS -->
+        <div id="content">
+            <section class="section">
+                <article id="mission" class="container">
+                    <div class="section-header">
+                        <div class="section-header-title wow fadeIn">
+                            Наша миссия и ценности
                         </div>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <div>
-                                    <span>Старт</span>
-                                    Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера а, мел,
-                                    соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
-                                </div>
-                                <div>
-                                    <span>Рост</span>
-                                    Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
-                                    соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
+                        <div class="section-header-inner">
+                            <h3 class="section-header-big-title wow fadeIn">Корма производятся исключительно из сырья
+                                кубанских
+                                производителей</h3>
+                            <p class="section-header-caption wow fadeIn">Уникальность наших комбинированных кормов
+                                заключается в
+                                применении в производстве комбикормов с повышенным содержанием кератина, получаемого при
+                                переработке перопуховых отходов птицеперерабатывающей промышленности. Наши корма прошли все
+                                стадии лабораторных испытаний и выступают полноценным аналогом традиционным системам
+                                кормления.</p>
+                        </div>
+                    </div>
+                    <div class="about-images">
+                        <img class="about-image-1 wow fadeIn" src="./public/hand-product.png" alt=""/>
+                        <img class="about-image-2 wow fadeIn" src="./public/rabbits-product.png" alt=""/>
+                    </div>
+                </article>
+            </section>
 
+            <section class="section section-accent">
+                <article id="favorite" class="container">
+                    <div class="section-header">
+                        <div class="section-header-title wow fadeIn">
+                            Преимущества
+                        </div>
+                        <div class="section-header-inner wow fadeIn">
+                            <h3 class="section-header-big-title wow fadeIn">Доступные и качественные гранулированные корма
+                                для вашего
+                                двора</h3>
+                            <p class="section-header-caption wow fadeIn">Мы гордимся тем, что создаём корма, которые
+                                заботятся о
+                                здоровье ваших животных каждый день. Наша продукция сочетает в себе передовые технологии и
+                                натуральность, обеспечивая идеальный баланс между качеством и доступностью.</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card card-1 wow fadeIn">
+                            <p>Корма производятся из продуктов птицеперерабатывающей промышленности, но, ни в чем не
+                                уступают комбикормам с традиционной системой кормления</p>
+                            <span>1</span>
+                        </div>
+                        <div class="card card-2 card-image wow fadeIn "></div>
+                        <div class="card card-3 card-white wow fadeIn">
+                            <p>Предлагаем доступные и стабильные цены</p>
+                            <span>2</span>
+                        </div>
+                        <div class="card card-4 card-white wow fadeIn"><p>Используется исключительно сырье кубанских
+                            производителей</p>
+                            <span>3</span>
+                        </div>
+                        <div class="card card-5 card-image wow fadeIn"></div>
+                        <div class="card card-6 wow fadeIn"><p>Наше белковое сырье из гидролизата пера и пуха птицы является
+                            универсальным и подходит для всех видов животных</p>  <span>4</span></div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="section">
+                <article id="product" class="container">
+                    <div class="section-header">
+                        <div class="section-header-title wow fadeIn">
+                            Наша продукция
+                        </div>
+                        <div class="section-header-inner">
+                            <h3 class="section-header-big-title wow fadeIn">Создаём корма, которым доверяют фермеры</h3>
+                            <p class="section-header-caption wow fadeIn">Корма разработаны с учётом потребностей животных и
+                                требований
+                                фермеров. Мы используем только проверенное сырьё, современные технологии производства и
+                                инновационные добавки, которые повышают питательную ценность.</p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-item wow fadeIn">
+                            <div class="accordion-header">
+                                <div><span>1</span> Куры несушки</div>
+                                <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div>
+                                        <span>Старт</span>
+                                        Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера а, мел,
+                                        соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
+                                    </div>
+                                    <div>
+                                        <span>Рост</span>
+                                        Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
+                                        соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
+
+                                    </div>
+                                    <div>
+                                        <span>Финиш</span>
+                                        Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
+                                        соль, витаминно-минеральный премикс, монокальцийфосфат.
+                                    </div>
                                 </div>
-                                <div>
-                                    <span>Финиш</span>
-                                    Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
-                                    соль, витаминно-минеральный премикс, монокальцийфосфат.
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeIn">
+                            <div class="accordion-header">
+                                <div><span>2</span> Бройлеры</div>
+                                <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div>
+                                        <span>Старт</span>
+                                        Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера а, мел,
+                                        соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
+                                    </div>
+                                    <div>
+                                        <span>Рост</span>
+                                        Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
+                                        соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
+
+                                    </div>
+                                    <div>
+                                        <span>Финиш</span>
+                                        Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
+                                        соль, витаминно-минеральный премикс, монокальцийфосфат.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-itemwow fadeIn">
+                            <div class="accordion-header">
+                                <div><span>3</span> Кролики и нутрии</div>
+                                <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div>
+                                        <span>Старт</span>
+                                        Пшеница, кукуруза, ячмень, отруби пшеничные, витаминно-минеральный премикс, шрот
+                                        соевый, гидролизат пера, мел, соль, монокальцийфосфат.
+                                    </div>
+                                    <div>
+                                        <span>Рост</span>
+                                        Пшеница, кукуруза, ячмень, отруби пшеничные, витаминно-минеральный премикс, шрот
+                                        соевый, гидролизат пера, мел, соль, монокальцийфосфат.
+
+
+                                    </div>
+                                    <div>
+                                        <span>Финиш</span>
+                                        Пшеница, кукуруза, ячмень, отруби пшеничные, витаминно-минеральный премикс, шрот
+                                        соевый, гидролизат пера, мел, соль, монокальцийфосфат.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item ">
+                            <div class="accordion-header">
+                                <div><span>4</span> КРС</div>
+                                <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div>
+                                        <span>Телята Старт</span>
+                                        Пшеница, ячмень, отруби пшеничные, шрот подсолнечный, шрот соевый
+                                        витаминно-минеральный премикс, гидролизат пера,соль, мел, монокальцийфосфат.
+
+                                    </div>
+                                    <div>
+                                        <span>Телята рост</span>
+                                        Пшеница, ячмень, отруби пшеничные, шрот подсолнечный, шрот соевый, гидролизат пера,
+                                        витаминно-минеральный премикс, соль, мел, монокальцийфосфат.
+
+
+                                    </div>
+                                    <div>
+                                        <span>Телята рост с люцерновым сеном</span>
+                                        Пшеница, ячмень, отруби пшеничные, шрот подсолнечный, шрот соевый,
+                                        витаминно-минеральный премикс, соль, мел, люцерновое сено, гидролизат пера,
+                                        монокальцийфосфат.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeIn">
+                            <div class="accordion-header">
+                                <div><span>5</span> Свиньи</div>
+                                <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div>
+                                        <span>Старт</span>
+                                        пшеница, кукуруза, ячмень, кукуруза, шрот соевый, шрот подсолнечный, ЗОМ (заменитель
+                                        обезжиренного молока), соль, витаминно-минеральный премикс, монокальцийфосфат,
+                                        гидролизат пера.
+
+                                    </div>
+                                    <div>
+                                        <span>Рост</span>
+                                        пшеница, кукуруза, ячмень, отруби пшеничные, шрот соевый, шрот подсолнечный,
+                                        витаминно-минеральный премикс, соль, монокальцийфосфат, гидролизат пера.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeIn">
+                            <div class="accordion-header">
+                                <div><span>6</span> Крупная птица (гуси, утки, индюки)</div>
+                                <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div>
+                                        <span>Старт</span>
+                                        пшеница, кукуруза, отруби пшеничные, шрот соевый, шрот подсолнечный,
+                                        витаминно-минеральный премикс, соль, монокальцийфосфат, гидролизат пера.
+
+                                    </div>
+                                    <div>
+                                        <span>Рост</span>
+                                        пшеница, кукуруза, отруби пшеничные, шрот соевый, шрот подсолнечный,
+                                        витаминно-минеральный премикс, соль, монокальцийфосфат, гидролизат пера.
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </article>
+            </section>
 
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <div><span>2</span> Бройлеры</div>
-                            <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
+            <section class="section section-banner">
+                <article id="banner" class="container">
+                    <div class="banner">
+                        <h3 class="wow fadeIn">Мы здесь, чтобы помочь вам расти.</h3>
+                        <p class="wow fadeIn">Свяжитесь с нами, и мы подберём лучший корм для ваших животных.</p>
+                        <a href="mailto:zamorozkino.stv@gmail.com" class="banner-link wow fadeIn" data-wow-delay="300ms">Связаться <span><i class="mdi mdi-arrow-right"></i></span></a>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <section class="section-footer">
+                <div class="footer-container container">
+                    <div class="footer-caption">
+                        <div class="footer-image wow fadeIn">
+                            <img src="./public/logo.png" alt="Логотип" width="80" height="80"/>
+                            X
+                            <img src="./public/fasie.png" alt="ФСИ" width="153" height="80"/>
                         </div>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <div>
-                                    <span>Старт</span>
-                                    Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера а, мел,
-                                    соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
-                                </div>
-                                <div>
-                                    <span>Рост</span>
-                                    Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
-                                    соль, витаминно-минеральный премикс, монокальцийфосфат, витамин В4, аминокислоты.
-
-                                </div>
-                                <div>
-                                    <span>Финиш</span>
-                                    Кукуруза, пшеница, ячмень, шрот соевый, шрот подсолнечный, гидролизат пера, мел,
-                                    соль, витаминно-минеральный премикс, монокальцийфосфат.
-
-                                </div>
+                        <p class="wow fadeIn">Проект создан при поддержке Федерального государственного бюджетного
+                            учреждения Фонд содействия
+                            развитию малых форм предприятий в научно-технической сфере в рамках программы "Студенческий
+                            стартап" федерального проекта "Платформа университетского технологического
+                            предпринимательства”</p>
+                        <span class="wow fadeIn">© 2025 Марьинские гранулированные корма. Все права защищены.</span>
+                    </div>
+                    <div class="footer-list">
+                        <div class="footer-menu wow fadeIn">
+                            <span>Документы</span>
+                            <div class="footer-ul">
+                                <a href="https://fasie.ru/" target="_blank">Фонд содействия инновациям</a>
+                                <a href="#">Политика конфиденциальности</a>
+                                <a href="#">Патент</a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <div><span>3</span> Кролики и нутрии</div>
-                            <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <div>
-                                    <span>Старт</span>
-                                    Пшеница, кукуруза, ячмень, отруби пшеничные, витаминно-минеральный премикс, шрот
-                                    соевый, гидролизат пера, мел, соль, монокальцийфосфат.
-                                </div>
-                                <div>
-                                    <span>Рост</span>
-                                    Пшеница, кукуруза, ячмень, отруби пшеничные, витаминно-минеральный премикс, шрот
-                                    соевый, гидролизат пера, мел, соль, монокальцийфосфат.
-
-
-                                </div>
-                                <div>
-                                    <span>Финиш</span>
-                                    Пшеница, кукуруза, ячмень, отруби пшеничные, витаминно-минеральный премикс, шрот
-                                    соевый, гидролизат пера, мел, соль, монокальцийфосфат.
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <div><span>4</span> КРС</div>
-                            <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <div>
-                                    <span>Телята Старт</span>
-                                    Пшеница, ячмень, отруби пшеничные, шрот подсолнечный, шрот соевый
-                                    витаминно-минеральный премикс, гидролизат пера,соль, мел, монокальцийфосфат.
-
-                                </div>
-                                <div>
-                                    <span>Телята рост</span>
-                                    Пшеница, ячмень, отруби пшеничные, шрот подсолнечный, шрот соевый, гидролизат пера,
-                                    витаминно-минеральный премикс, соль, мел, монокальцийфосфат.
-
-
-                                </div>
-                                <div>
-                                    <span>Телята рост с люцерновым сеном</span>
-                                    Пшеница, ячмень, отруби пшеничные, шрот подсолнечный, шрот соевый,
-                                    витаминно-минеральный премикс, соль, мел, люцерновое сено, гидролизат пера,
-                                    монокальцийфосфат.
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <div><span>5</span> Свиньи</div>
-                            <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <div>
-                                    <span>Старт</span>
-                                    пшеница, кукуруза, ячмень, кукуруза, шрот соевый, шрот подсолнечный, ЗОМ (заменитель
-                                    обезжиренного молока), соль, витаминно-минеральный премикс, монокальцийфосфат,
-                                    гидролизат пера.
-
-                                </div>
-                                <div>
-                                    <span>Рост</span>
-                                    пшеница, кукуруза, ячмень, отруби пшеничные, шрот соевый, шрот подсолнечный,
-                                    витаминно-минеральный премикс, соль, монокальцийфосфат, гидролизат пера.
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <div><span>6</span> Крупная птица (гуси, утки, индюки)</div>
-                            <span class="accordion-btn"><i class="mdi mdi-plus"></i></span>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <div>
-                                    <span>Старт</span>
-                                    пшеница, кукуруза, отруби пшеничные, шрот соевый, шрот подсолнечный,
-                                    витаминно-минеральный премикс, соль, монокальцийфосфат, гидролизат пера.
-
-                                </div>
-                                <div>
-                                    <span>Рост</span>
-                                    пшеница, кукуруза, отруби пшеничные, шрот соевый, шрот подсолнечный,
-                                    витаминно-минеральный премикс, соль, монокальцийфосфат, гидролизат пера.
-
+                        <div class="footer-menu wow fadeIn">
+                            <span>Контакты</span>
+                            <div class="footer-ul">
+                                <a href="tel:+7 (952) 821-60-05"><i class="mdi mdi-phone"></i> +7 (952) 821-60-05</a>
+                                <a href="mailto:marinskiye-korma@yandex.ru"><i class="mdi mdi-email"></i>marinskiye-korma@yandex.ru</a>
+                                <div><i class="mdi mdi-map-marker"></i> Краснодарский край, тбилисский район, хутор
+                                    Марьинский, улица Мира, дом 12/2
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </article>
-        </section>
-
-        <section class="section section-banner">
-            <article id="banner" class="container">
-                <div class="banner">
-                    <h3>Мы здесь, чтобы помочь вам расти.</h3>
-                    <p>Свяжитесь с нами, и мы подберём лучший корм для ваших животных.</p>
-                </div>
-            </article>
-        </section>
+            </section>
+        </footer>
     </div>
-
-    <!-- FOOTER -->
-    <footer id="footer">
-        <section class="section-footer">
-            <div class="footer-container container">
-                <div class="footer-caption">
-                    <div class="footer-image">
-                        <img src="./public/logo.png" alt="Логотип" width="80" height="80" class="wow fadeIn"/>
-                        X
-                        <img src="./public/fasie.png" alt="ФСИ" width="153" height="80" class="wow fadeIn"/>
-                    </div>
-                    <p>Проект создан при поддержке Федерального государственного бюджетного учреждения Фонд содействия
-                        развитию малых форм предприятий в научно-технической сфере в рамках программы "Студенческий
-                        стартап" федерального проекта "Платформа университетского технологического
-                        предпринимательства”</p>
-                    <span>© 2025 Марьинские гранулированные корма. Все права защищены.</span>
-                </div>
-                <div class="footer-list">
-                    <div class="footer-menu">
-                        <span>Документы</span>
-                        <div class="footer-ul">
-                            <a href="https://fasie.ru/" target="_blank">Фонд содействия инновациям</a>
-                            <a href="#">Политика конфиденциальности</a>
-                            <a href="#">Патент</a>
-                        </div>
-                    </div>
-                    <div class="footer-menu">
-                        <span>Контакты</span>
-                        <div class="footer-ul">
-                            <a href="tel:+7 (952) 821-60-05"><i class="mdi mdi-phone-outline"></i> Фонд содействия инновациям</a>
-                            <a href="mailto:marinskiye-korma@yandex.ru"><i class="mdi mdi-email-outline"></i>marinskiye-korma@yandex.ru</a>
-                            <div><i class="mdi mdi-map-marker-outline"></i> Краснодарский край, тбилисский район, хутор Марьинский, улица Мира, дом 12/2  </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </footer>
 
 </main>
 
@@ -457,6 +501,10 @@
         crossorigin='anonymous' referrerpolicy='no-referrer'></script>
 
 <script>new WOW().init()</script>
+
+<script src="./static/libs/gsap.min.js"></script>
+<script src="./static/libs/ScrollTrigger.min.js"></script>
+<script src="./static/libs/ScrollSmoother.min.js"></script>
 
 <script src="./static/script/index.js"></script>
 
